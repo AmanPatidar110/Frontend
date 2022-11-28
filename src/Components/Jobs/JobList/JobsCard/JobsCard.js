@@ -30,12 +30,10 @@ function JobsCard({ job }) {
       <Divider />
       <div>
         <KeyPair label="CTC" value={job?.ctc} />
-        <KeyPair label="CTC" value={job?.ctc} />
-        <KeyPair label="CTC" value={job?.ctc} />
-        <KeyPair label="CTC" value={job?.ctc} />
-        <KeyPair label="CTC" value={job?.ctc} />
-        <KeyPair label="CTC" value={job?.ctc} />
-        <KeyPair label="CTC" value={job?.ctc} />
+        <KeyPair label="Role" value={job?.role} />
+        <KeyPair label="CGPA Cutoff" value={job?.cgpaCutoff} />
+        <KeyPair label="Job Type" value={job?.jobType} />
+        <KeyPair label="Bond" value={job?.bond} />
       </div>
     </Card>
   );

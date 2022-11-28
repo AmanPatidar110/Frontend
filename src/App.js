@@ -117,31 +117,27 @@ const App = () => {
                 <Login />
               </Route>
 
-              <>
-                <Route path="/student/jobs" exact>
-                  <Jobs />
-                </Route>
-                <Route path="/student/profile" exact>
-                  <StudentProfile />
-                </Route>
-                <Route path="/student/edit-profile" exact>
-                  <EditStudentProfile />
-                </Route>
-              </>
+              <Route path="/student/jobs" exact>
+                <Jobs />
+              </Route>
+              <Route path="/student/profile" exact>
+                <StudentProfile />
+              </Route>
+              <Route path="/student/edit-profile" exact>
+                <EditStudentProfile />
+              </Route>
 
               {/* <Route path="/" exact></Route> */}
 
-              <>
-                <Route path="/admin/students" exact>
-                  <Students />
-                </Route>
-                <Route path="/admin/jobs" exact>
-                  <Jobs />
-                </Route>
-                <Route path="/admin/settings" exact>
-                  <Settings />
-                </Route>
-              </>
+              <Route path="/admin/students" exact>
+                <Students />
+              </Route>
+              <Route path="/admin/jobs" exact>
+                <Jobs />
+              </Route>
+              <Route path="/admin/settings" exact>
+                <Settings />
+              </Route>
             </Switch>
           </Router>
         </QueryClientProvider>
